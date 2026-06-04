@@ -25,21 +25,7 @@
   .nav-btn { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 8px; color: rgba(255,255,255,.75); cursor: pointer; font-size: 13.5px; transition: all .15s; border: none; background: none; width: 100%; text-align: left; }
   .nav-btn:hover { background: rgba(255,255,255,.1); color: #fff; }
   .nav-btn.active { background: rgba(255,255,255,.18); color: #fff; font-weight: 600; }
-  .search-bar { padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,.1); flex-shrink: 0; position: relative; }
-  .search-input { width: 100%; padding: 7px 10px; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.15); border-radius: 7px; color: #fff; font-size: 13px; font-family: inherit; outline: none; }
-  .search-input::placeholder { color: rgba(255,255,255,.4); }
-  #sb-results { position: absolute; left: 12px; right: 12px; top: 52px; background: #fff; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,.2); z-index: 50; max-height: 280px; overflow-y: auto; }
-  .sr-item { padding: 9px 12px; cursor: pointer; border-bottom: 1px solid var(--border); font-size: 12.5px; }
-  .sr-item:last-child { border-bottom: none; } .sr-item:hover { background: var(--bg); }
-  .sr-title { font-weight: 600; color: var(--teal-dark); margin-bottom: 2px; }
-  .sr-snippet { font-size: 11.5px; color: var(--text-muted); line-height: 1.4; }
-  .sidebar-sections { flex: 1; overflow-y: auto; padding: 8px; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.2) transparent; }
-  .s-item { padding: 7px 10px; border-radius: 6px; color: rgba(255,255,255,.65); font-size: 12.5px; cursor: pointer; transition: all .15s; line-height: 1.35; }
-  .s-item:hover { background: rgba(255,255,255,.1); color: #fff; }
-  .s-item.active { background: rgba(255,255,255,.18); color: #fff; }
-  .s-item.lv1 { font-weight: 700; color: rgba(255,255,255,.9); font-size: 13px; margin-top: 4px; }
-  .s-item.lv4 { padding-left: 30px; font-size: 11.5px; }
-  .s-item.lv3 { padding-left: 22px; font-size: 12px; }
+  .sidebar-sections { display: none; }
 
   /* ── Main ── */
   #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
@@ -204,10 +190,6 @@
     <button class="nav-btn" onclick="showView('manual')" id="nav-manual"><span>📖</span> Ver Manual</button>
     <button class="nav-btn" onclick="showView('search')" id="nav-search"><span>🔍</span> Buscar</button>
     <button class="nav-btn" onclick="showView('settings')" id="nav-settings"><span>⚙️</span> Configuración</button>
-  </div>
-  <div class="search-bar">
-    <input class="search-input" id="sb-input" placeholder="Buscar sección..." oninput="sbSearch(this.value)" autocomplete="off">
-    <div id="sb-results"></div>
   </div>
   <div class="sidebar-sections" id="sidebar-sections"></div>
 </div>
@@ -694,17 +676,6 @@ function searchSections(q, limit) {
   },[]).slice(0,limit);
 }
 
-function sbSearch(q) {
-  clearTimeout(searchTimer);
-  const el=document.getElementById('sb-results');
-  if(!q.trim()){el.innerHTML='';return;}
-  searchTimer=setTimeout(()=>{
-    const r=searchSections(q,6);
-    if(!r.length){el.innerHTML='';return;}
-    el.innerHTML=r.map(x=>`<div class="sr-item" onclick="openSection(${x.id});document.getElementById('sb-input').value='';document.getElementById('sb-results').innerHTML=''"><div class="sr-title">${esc(x.title.substring(0,50))}</div>${x.snippet?`<div class="sr-snippet">${esc(x.snippet)}</div>`:''}</div>`).join('');
-  },280);
-}
-window.sbSearch = sbSearch;
 
 function mainSearch(q) {
   clearTimeout(searchTimer);
