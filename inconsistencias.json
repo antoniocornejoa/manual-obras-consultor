@@ -202,23 +202,23 @@
     "tema": "Empresas de retiro de escombros — Sin validación en proceso de contratación de subcontratistas",
     "tipo": "Brecha",
     "severidad": "Media",
-    "estado": "No aplica",
+    "estado": "Corregido",
     "manual_origen": "ambiental",
     "admin_dice": "El Manual de Administración describe el proceso de contratación de subcontratistas (cotizaciones, contratos, retenciones) pero no incluye la verificación de certificación ambiental para empresas de retiro de escombros.",
     "calidad_dice": "El Manual de Calidad no menciona la validación de certificación ambiental como requisito para la contratación de empresas de retiro de escombros y residuos especiales.",
     "ambiental_dice": "La sección 10 del índice ambiental establece que solo se pueden contratar empresas que figuren en el listado de empresas certificadas o que acrediten autorización de la autoridad sanitaria/ambiental.",
-    "recomendacion": "[NO APLICA] La validacion de empresas certificadas de escombros se realiza dentro del instructivo ambiental de control de residuos (seccion 3.2 y 10.1). No requiere modificacion en el proceso de subcontratacion."
+    "recomendacion": "[CORREGIDO] La validacion de empresas certificadas de escombros aplica y esta cubierta en el Instructivo 3.2 (control en terreno de residuos) y seccion 10.1 del Manual Ambiental."
   },
   {
     "id": 21,
     "tema": "Registro de consumo de agua y luz — No integrado al control administrativo",
     "tipo": "Brecha",
     "severidad": "Baja",
-    "estado": "No aplica",
+    "estado": "Corregido",
     "manual_origen": "ambiental",
     "admin_dice": "El Manual de Administración controla el consumo de agua en el contexto de la humectación (control de hormigones, riego), pero no integra el registro de consumo de servicios básicos como indicador de eficiencia ambiental.",
     "calidad_dice": "El Manual de Calidad incluye planillas de control de riego (Anexo 12) pero no las vincula a un registro ambiental de consumo.",
     "ambiental_dice": "La sección 4.2 del índice ambiental establece un formulario específico de 'Registro de servicios básicos (agua y luz)' como indicador de eficiencia ambiental.",
-    "recomendacion": "[NO APLICA] El registro de consumo de agua y luz esta integrado en los instructivos ambientales (formulario 4.2). No requiere modificacion en el control administrativo principal."
+    "recomendacion": "[CORREGIDO] El registro de consumo de agua y luz aplica y esta cubierto en el formulario 4.2 del Manual Ambiental."
   }
 ]
