@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "tema": "Roles y responsabilidades — Dependencia funcional del Control de Calidad",
+    "tipo": "Contradicción",
+    "severidad": "Alta",
+    "admin_dice": "El encargado del Control de Calidad 'desde una perspectiva funcional, está por sobre el Director de Obras y que depende del Gerente Técnico'. Si los trabajos no se hacen adecuadamente, puede y debe paralizar las faenas.",
+    "calidad_dice": "La calidad es responsabilidad de todos, 'siendo liderada por el Director de Obra en cada uno de los proyectos'. El ECO (Encargado de Calidad de Obra) reporta al Supervisor de Calidad Zonal y a la Subgerencia de Calidad, no al Gerente Técnico.",
+    "recomendacion": "[CORREGIDO] Definir explícitamente la cadena de mando del ECO: ¿depende del Gerente Técnico (según Adm.) o de la Subgerencia de Calidad (según Calidad)? Unificar en ambos manuales la línea de reporte y la relación jerárquica con el Director de Obra.",
+    "estado": "Corregido"
+  },
+  {
+    "id": 2,
+    "tema": "No conformidades — Plazo máximo de corrección",
+    "tipo": "Contradicción",
+    "severidad": "Alta",
+    "admin_dice": "El Registro de No Conformidades 'tiene un plazo máximo de corrección de 7 días. De no cumplirse con este plazo, se debe registrar la instancia que indique que se detuvo la partida en cuestión.'",
+    "calidad_dice": "Las no conformidades 'deben ser solucionadas de inmediato'. 'La solución debe ser inmediata y prioritaria, no debe volver a ocurrir.' No se menciona plazo de 7 días; se espera solución en el mismo momento del levantamiento.",
+    "recomendacion": "[CORREGIDO] Alinear ambos manuales estableciendo un único plazo formal. Si la solución no puede ser inmediata, definir criterios para el plazo extendido (hasta 7 días) y documentar el proceso intermedio de manera consistente en ambos documentos.",
+    "estado": "Corregido"
+  },
+  {
+    "id": 3,
+    "tema": "Control de Calidad — Evaluación semanal y escala de notas",
+    "tipo": "Brecha",
+    "severidad": "Media",
+    "admin_dice": "El Encargado de Control de Calidad deberá evaluar semanalmente su obra. Si la nota es menor a 4, se debe generar un informe hacia Gerencia, cumpliendo con los plazos establecidos.",
+    "calidad_dice": "La evaluación se realiza todos los jueves mediante encuesta de Google. La evaluación es cuantitativa y los resultados llegan a gerencia de calidad. Se presenta mensualmente. No se menciona el umbral de nota 4 ni el plazo para generar informe a Gerencia.",
+    "recomendacion": "El Manual de Calidad debe incorporar explícitamente el umbral de nota 4 como criterio de alarma y el procedimiento de reporte a Gerencia cuando se supera ese límite. Asimismo, aclarar si la evaluación es semanal (como indica Adm.) o se consolida mensualmente (como describe Calidad).",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 4,
+    "tema": "Inicio de obra — Responsable de dar inicio oficial",
+    "tipo": "Contradicción",
+    "severidad": "Alta",
+    "admin_dice": "El Gerente General de la Constructora es la única persona responsable de dar el inicio oficial de una obra, teniendo a la vista el cumplimiento de las actividades establecidas.",
+    "calidad_dice": "Para el inicio de la obra será necesario validar el check list adjunto (Anexo 1). La obligación del check list es del 'encargado de la Obra (Director de Obras)'. Si el proyecto tiene consideraciones especiales, el inicio será validado por la gerencia (sin especificar quién exactamente).",
+    "recomendacion": "[CORREGIDO] Ambos manuales deben coincidir en que el inicio oficial lo da el Gerente General, pero el Manual de Calidad debe clarificar que el check list que prepara el Director de Obra es un requisito previo que se eleva al Gerente General para la autorización.",
+    "estado": "Corregido"
+  },
+  {
+    "id": 5,
+    "tema": "Término de obra — Responsable del Informe Final de Calidad y plazos",
+    "tipo": "Brecha",
+    "severidad": "Media",
+    "admin_dice": "El 'Informe de Control de Calidad e información de resguardo para posibles Postventa' debe ser suscrito por Director de Obra y Constructor Control de Calidad, con V°B° del Subgerente de Calidad. El documento debe entregarse máximo 1 mes después de la Recepción Municipal.",
+    "calidad_dice": "El Control de Calidad o Supervisor de Calidad realiza el Informe Final de Obra al término. Debe ser visado por el Sub Gerente de Calidad. No se establece plazo específico de entrega post-Recepción Municipal.",
+    "recomendacion": "El Manual de Calidad debe incorporar el plazo de 1 mes desde la Recepción Municipal para entregar el Informe Final, alineándose con el Manual de Administración.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 6,
+    "tema": "Subcontratistas — Pago y frecuencia de estados de pago",
+    "tipo": "Brecha",
+    "severidad": "Media",
+    "admin_dice": "El sistema de autorización de pago a subcontratistas se efectuará en forma quincenal, entregándose el lunes de la semana de pago a más tardar a las 24 horas. No se cancelarán Estados de Pago que no cumplan estos requisitos.",
+    "calidad_dice": "Los estados de pago a contratistas son mencionados en el contexto de validación de partidas por calidad: 'El pago de cada incentivo debe tener VB de Control de Calidad'. No se describe la periodicidad de pagos ni el proceso administrativo de estados de pago desde la perspectiva de calidad.",
+    "recomendacion": "El Manual de Calidad debe incorporar explícitamente que el VB de calidad es un requisito previo al procesamiento de los estados de pago quincenales, articulando el flujo de aprobación de calidad con el calendario de pagos del Manual de Administración.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 7,
+    "tema": "Subcontratistas — Recepción de partidas antes del pago",
+    "tipo": "Ambigüedad",
+    "severidad": "Alta",
+    "admin_dice": "Toda obra realizada deberá ser recepcionada por el Encargado del Control de Calidad, 'sin cuyo trámite no se podrá cancelar el trabajo al ejecutante'. Toda actividad debe ser autorizada previamente por el Encargado de Control de Calidad.",
+    "calidad_dice": "El ECO y/o supervisor aprueba partidas mediante fichas de calidad (protocolos). Sin embargo, el proceso de recepción formal vinculado al pago se delega al flujo del sistema SISTRATO y la administración de obra, sin que el Manual de Calidad establezca formalmente el bloqueo de pago por falta de recepción de calidad.",
+    "recomendacion": "[CORREGIDO] Incorporar en el Manual de Calidad una cláusula explícita que indique que la firma de las fichas de calidad (protocolos) es requisito indispensable para procesar el estado de pago al subcontratista, reforzando lo que el Manual de Administración establece.",
+    "estado": "Corregido"
+  },
+  {
+    "id": 8,
+    "tema": "Bodega y materiales — Acceso a bodegas",
+    "tipo": "Contradicción",
+    "severidad": "Media",
+    "admin_dice": "Las únicas personas autorizadas a ingresar a las bodegas son el bodeguero y su ayudante. Nadie más debe ingresar a las bodegas. Cuando se soliciten materiales, las personas deberán permanecer fuera del recinto.",
+    "calidad_dice": "En la sección de abastecimiento se indica que el 'Administrativo de Abastecimiento' también tiene acceso y rol activo en la verificación de materiales en bodega ('Verificar los ingresos de materiales a las bodegas realizando en conjunto con el bodeguero el conteo y revisión'). Más adelante la sección de Bodeguero del mismo Manual de Administración indica que solo pueden ingresar 'bodeguero, ayudante de bodega, administrativo de abastecimiento y auditores'.",
+    "recomendacion": "Existe una inconsistencia interna dentro del propio Manual de Administración: en la sección 'Acceso a las Bodegas' dice solo bodeguero y ayudante, pero en la descripción del cargo del bodeguero amplía la lista. Corregir para que ambas secciones sean coherentes y reflejar esta realidad en el Manual de Calidad cuando refiere al control de materiales.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 9,
+    "tema": "Bodega y materiales — Revisión de acopio y calidad de materiales",
+    "tipo": "Brecha",
+    "severidad": "Media",
+    "admin_dice": "El Bodeguero es responsable de recepcionar los materiales verificando cantidad y calidad de acuerdo a la Orden de Compra. El Administrativo de Abastecimiento también verifica ingresos junto al bodeguero.",
+    "calidad_dice": "El encargado de calidad debe 'asegurar la revisión de los acopios de materiales' y 'visar la calidad de los materiales que se van acopiando en obra'. Además debe verificar que los materiales correspondan a las especificaciones técnicas. Se supervisa el buen almacenaje 'una vez al mes e informar mediante la evaluación de obra'.",
+    "recomendacion": "Definir claramente la división de responsabilidades: el Bodeguero verifica conformidad con la OC (cantidad/tipo), y el ECO verifica conformidad con las especificaciones técnicas (calidad técnica). Documentar el flujo de rechazo de materiales cuando el ECO detecta no conformidad técnica en el acopio.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 10,
+    "tema": "Terminología — 'Encargado de Control de Calidad' vs 'ECO' vs 'Supervisor de Calidad' vs 'Constructor Control de Calidad'",
+    "tipo": "Ambigüedad",
+    "severidad": "Media",
+    "admin_dice": "Utiliza los términos 'Encargado de Control de Calidad' y 'Constructor Control de Calidad' para referirse al responsable de calidad en obra. También menciona 'Subgerente de Calidad' para el nivel corporativo.",
+    "calidad_dice": "Utiliza 'ECO' (Encargado de Calidad de Obra), 'Supervisor de Calidad Zonal', 'Control de Calidad Zonales' y 'Subgerente de Calidad'. Distingue entre ECO (1 por cada 160 familias en DS49) y Supervisores Zonales (3, uno por tipo de proyecto).",
+    "recomendacion": "Crear un glosario unificado de cargos de calidad en ambos manuales. Definir si 'Encargado de Control de Calidad' del Manual de Administración equivale al 'ECO' o al 'Supervisor Zonal' del Manual de Calidad, y si 'Constructor Control de Calidad' es un cargo diferente.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 11,
+    "tema": "Control de hormigones — Responsable del seguimiento y muestras",
+    "tipo": "Brecha",
+    "severidad": "Media",
+    "admin_dice": "El control de calidad debe indicar diariamente la cantidad de hormigón que se colocará en las partidas del día siguiente. El Administrativo de Adquisiciones lleva la planilla de control e informa rendimientos semanalmente a Gerentes. El Cardchequer controla la recepción física.",
+    "calidad_dice": "El ECO es responsable de programar ensayos de hormigón (mínimo 30% de viviendas) en coordinación con el laboratorio. Debe obtener resultados a los 7 y 28 días. En caso de deficiencia, informar a la Gerencia Técnica de manera inmediata. La planilla de excavaciones es preparada por el ECO.",
+    "recomendacion": "Articular explícitamente ambos flujos: el Manual de Administración describe el control operativo/cuantitativo (m3, guías, OC) y el Manual de Calidad el control técnico (resistencia, ensayos). Definir cómo se integran ambos registros y quién es el interlocutor único ante Gerencia Técnica cuando hay desviaciones en hormigón.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 12,
+    "tema": "Programación de materiales — Responsable de confeccionar la sábana de materiales",
+    "tipo": "Contradicción",
+    "severidad": "Media",
+    "admin_dice": "El Administrador de Obra debe 'Generar al inicio de la obra una sábana de materiales en el formato establecido. Esta tarea debe ser realizada inmediatamente hecho el presupuesto en control'.",
+    "calidad_dice": "La sábana de materiales 'es entregada por el administrador de obra o el encargado de adquisiciones'. Sin embargo, la validación de la sábana es responsabilidad de los Encargados de Calidad, y se valida con las casas piloto. La sábana corregida pasa a ser la base del próximo proyecto.",
+    "recomendacion": "Aclarar que el Administrador genera la sábana inicial, el ECO la valida/corrige con las casas piloto, y la versión corregida queda como registro de calidad. Unificar este flujo en ambos manuales para evitar ambigüedad sobre quién tiene la versión vigente y autorizada.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 13,
+    "tema": "Postventa — Responsable y conducto regular",
+    "tipo": "Brecha",
+    "severidad": "Baja",
+    "admin_dice": "El informe de término de obra debe contener información de control de calidad 'con un propósito final de asegurar y garantizar una correcta atención de postventa'. Debe ser suscrito por Director y Constructor Control de Calidad.",
+    "calidad_dice": "El Encargado de Post Venta realiza visitas y emite 'Diagnóstico' a través del sistema de Postventa. El proceso es liderado por el área Comercial que ingresa las solicitudes al sistema integrado. El procedimiento detallado está en el 'Manual de Atención de Postventa' (documento separado no referenciado en el Manual de Administración).",
+    "recomendacion": "El Manual de Administración debería referenciar el Manual de Atención de Postventa como documento complementario. Clarificar si el 'Encargado de Post Venta' es parte del equipo de calidad o un cargo independiente, y cómo se vincula con el Director de Obra al momento del cierre.",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 14,
+    "tema": "Retenciones a subcontratistas — Control de calidad como requisito de devolución",
+    "tipo": "Brecha",
+    "severidad": "Alta",
+    "admin_dice": "La Constructora efectúa retención del 6% del Estado de Pago. El Gerente de Operaciones autoriza las devoluciones. Los subcontratistas que no reparen defectos de sus trabajos serán separados de la Constructora.",
+    "calidad_dice": "No se menciona el mecanismo de retenciones del 6% ni el proceso de devolución vinculado al cierre de calidad. El Manual de Calidad no describe cómo las no conformidades abiertas impactan la retención o devolución de garantías.",
+    "recomendacion": "[CORREGIDO] Incorporar en el Manual de Calidad que las no conformidades no cerradas de un subcontratista son causal de retención de garantías, y que la devolución del 6% retenido requiere certificación del ECO de que todas las observaciones de calidad han sido subsanadas.",
+    "estado": "Corregido"
+  },
+  {
+    "id": 15,
+    "tema": "Programación y carta Gantt — Responsables de validación",
+    "tipo": "Ambigüedad",
+    "severidad": "Media",
+    "admin_dice": "La programación de obra debe ser hecha por el Director de Obra y validada por el equipo, el Gerente Técnico, el Gerente de Administración y el Gerente de Operaciones. Las fichas de Control de Partidas deben estar actualizadas diariamente.",
+    "calidad_dice": "El plan de calidad incluye capacitaciones y la sectorización de responsables. Las reuniones de coordinación son convocadas por el Director de Obra. El ECO y supervisor deben participar activamente en 'reuniones de planificación'. No queda claro si el ECO valida formalmente la carta Gantt o solo es receptor de ella.",
+    "recomendacion": "Definir en ambos manuales si el Encargado de Calidad tiene rol formal de validación en la carta Gantt (especialmente en lo que refiere a secuencia constructiva y partidas críticas de calidad) o solo rol consultivo.",
+    "estado": "Pendiente"
+  }
+]
