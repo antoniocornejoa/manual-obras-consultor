@@ -1,0 +1,134 @@
+import json
+
+ambiental = [
+  {
+    "title": "Indice General — Documentacion Ambiental",
+    "level": 0,
+    "manual": "ambiental",
+    "content": [
+      "Este indice contiene toda la documentacion ambiental requerida para las obras de Constructora Independencia S.A.",
+      "Categorias principales: Plan de Gestion de Residuos, Cartas de Inicio de Obras, Instructivos de Manejo, Formularios de Registro, Matrices de Cumplimiento, Resolucion DIA, Medidas de Mitigacion, Senaletica, Documentacion Empresas Certificadas, Extraccion de Agua, Plan de Manejo Ambiental."
+    ]
+  },
+  {
+    "title": "1. Plan de Gestion de Residuos de Construccion y Demolicion",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "1.1 Plan de gestion de residuos de construccion y demolicion — Documento que establece los procedimientos para el manejo, clasificacion, transporte y disposicion final de residuos generados en obra.",
+      "1.2 Manual Ambiental — Manual de referencia general para el cumplimiento de las obligaciones ambientales en todos los proyectos."
+    ]
+  },
+  {
+    "title": "2. Cartas de Inicio de Obras",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "Toda obra debe tramitar las siguientes cartas ANTES de iniciar faenas:",
+      "2.1 Carta a los vecinos — Notificacion formal a vecinos colindantes informando inicio, duracion estimada y medidas de mitigacion adoptadas.",
+      "2.2 Carta conductora DOM (Direccion de Obras Municipales) — Carta de inicio de obras dirigida al DOM con la documentacion de respaldo.",
+      "2.3 Plan de mitigacion para acompañar con carta DOM — Documento que describe las medidas de mitigacion de impactos durante la construccion (ruido, polvo, trafico, residuos).",
+      "2.4 Carta Carabineros — Notificacion a Carabineros para obras que requieran intervencion en via publica o que generen impacto en el transito."
+    ]
+  },
+  {
+    "title": "3. Instructivos Ambientales",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "3.1 Instructivo Manejo de Residuos — Procedimiento general para clasificacion y disposicion de residuos en obra.",
+      "3.2 Instructivo de control en terreno de residuos — Protocolo de supervision y registro de residuos generados.",
+      "3.3 Instructivo de reciclaje de ladrillos — Procedimiento para separacion y acopio de ladrillos para reciclaje.",
+      "3.4 Instructivo de reciclaje de madera — Procedimiento para separacion, reutilizacion o disposicion de madera.",
+      "3.5 Instructivo de reciclaje de fierro — Procedimiento para separacion y venta/reciclaje de fierro.",
+      "3.6 Instructivo de reciclaje de carton — Procedimiento para separacion y disposicion de carton.",
+      "3.7 Instructivo de reciclaje de plastico — Procedimiento para separacion y disposicion de plasticos.",
+      "3.8 Instructivo de reciclaje de PVC y conduit — Procedimiento para separacion y disposicion de PVC y conduit electrico.",
+      "3.9 Instructivo ventas y despunte de fierro — Procedimiento para la venta de recortes y despuntes de fierro a empresas certificadas.",
+      "3.10 Instructivo mitigacion de ruidos — Procedimiento para minimizar el impacto acustico en vecinos y cumplir normativa municipal."
+    ]
+  },
+  {
+    "title": "4. Formularios de Registro Ambiental",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "4.1 Registro de Reciclaje, material inerte y escombros — Planilla para el registro diario/semanal de residuos reciclados, material inerte retirado y escombros generados en obra.",
+      "4.2 Registro de servicios basicos (agua y luz) — Planilla de control del consumo de agua y electricidad en obra, como indicador de eficiencia ambiental."
+    ]
+  },
+  {
+    "title": "5. Confluence — Buenas Practicas Ambientales",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "5.1 Pagina web de Respaldo Buenas Practicas Ambientales — Repositorio Confluence con documentacion de respaldo, ejemplos de buenas practicas y guias de cumplimiento ambiental aplicables a los proyectos de Independencia."
+    ]
+  },
+  {
+    "title": "6. Matrices de Cumplimiento Ambiental",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "6.1 Matrices de cumplimiento de obras — Herramienta de control para verificar el cumplimiento de cada requisito ambiental aplicable a la obra. Debe ser completada y actualizada periodicamente por el encargado ambiental o el Director de Obra."
+    ]
+  },
+  {
+    "title": "7. Resolucion DIA — Declaracion de Impacto Ambiental",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "7.1 Documentacion DIA — Toda obra sujeta a Declaracion de Impacto Ambiental debe mantener en obra la documentacion aprobada (resolucion, plan de seguimiento, compromisos ambientales voluntarios). El Director de Obra es responsable de verificar el cumplimiento de los compromisos DIA durante toda la ejecucion.",
+      "IMPORTANTE: La documentacion DIA debe estar disponible en obra para inspeccion en cualquier momento. El incumplimiento de compromisos DIA puede resultar en paralizacion de faenas por parte de la autoridad ambiental."
+    ]
+  },
+  {
+    "title": "8. Medidas de Mitigacion",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "8.1 Cierre perimetral de obra — Especificaciones para el cierre perimetral: materiales, altura minima, senaletica obligatoria y mantenimiento. Es requisito previo al inicio de faenas.",
+      "8.2 Caja acustica — Especificaciones tecnicas para la instalacion de cajas acusticas en equipos generadores de ruido (grupos electrogenos, compresores). Obligatorio en obras urbanas.",
+      "8.3 Lavado de ruedas — Protocolo para la instalacion y uso del sistema de lavado de ruedas de camiones que salen de la obra, evitando contaminacion de vias publicas."
+    ]
+  },
+  {
+    "title": "9. Senaletica Ambiental",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "9.1 Senaletica 1 — Especificaciones de senaletica ambiental obligatoria en obra: ubicacion de contenedores de reciclaje, salidas de emergencia, zonas de acopio.",
+      "9.2 Senaletica 2 — Senaletica complementaria: restricciones de acceso, zonas de silencio, indicaciones para subcontratistas sobre manejo de residuos."
+    ]
+  },
+  {
+    "title": "10. Documentacion Empresas Certificadas para Retiro de Escombros",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "10.1 Documentacion — Listado de empresas certificadas para el retiro y disposicion final de escombros y residuos especiales. Solo se puede contratar empresas que figuren en este listado o que acrediten autorizacion de la autoridad sanitaria/ambiental competente. Debe mantenerse copia de los certificados de disposicion final en el archivador de calidad."
+    ]
+  },
+  {
+    "title": "11. Extraccion de Agua",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "11.1 Registro de humectacion — Planilla de control del agua utilizada para humectacion de materiales y caminos interiores de obra (control de polvo). El registro debe indicar frecuencia, volumen y fuente del agua.",
+      "11.2 Carta de extraccion de agua — Documentacion requerida cuando la obra extrae agua de fuentes naturales (pozos, rios, canales). Debe tramitarse antes del inicio de faenas cuando aplique."
+    ]
+  },
+  {
+    "title": "12. Plan de Manejo Ambiental (Obras con RCA)",
+    "level": 1,
+    "manual": "ambiental",
+    "content": [
+      "12.1 Plan de Manejo para obras con RCA (Resolucion de Calificacion Ambiental) — Documento especifico requerido para proyectos que ingresan al Sistema de Evaluacion de Impacto Ambiental (SEIA). Define compromisos, medidas y monitoreo ambiental durante la construccion.",
+      "12.2 Plan de Manejo obras con RCA (version actualizada) — Version complementaria o actualizacion del plan de manejo para obras con RCA que requieran modificaciones aprobadas por la autoridad ambiental."
+    ]
+  }
+]
+
+with open("ambiental_sections.json", "w", encoding="utf-8") as f:
+    json.dump(ambiental, f, ensure_ascii=False, indent=2)
+print(f"ambiental_sections.json creado: {len(ambiental)} secciones")
