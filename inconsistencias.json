@@ -26,8 +26,8 @@
     "severidad": "Media",
     "admin_dice": "El Encargado de Control de Calidad deberá evaluar semanalmente su obra. Si la nota es menor a 4, se debe generar un informe hacia Gerencia, cumpliendo con los plazos establecidos.",
     "calidad_dice": "La evaluación se realiza todos los jueves mediante encuesta de Google. La evaluación es cuantitativa y los resultados llegan a gerencia de calidad. Se presenta mensualmente. No se menciona el umbral de nota 4 ni el plazo para generar informe a Gerencia.",
-    "recomendacion": "El Manual de Calidad debe incorporar explícitamente el umbral de nota 4 como criterio de alarma y el procedimiento de reporte a Gerencia cuando se supera ese límite. Asimismo, aclarar si la evaluación es semanal (como indica Adm.) o se consolida mensualmente (como describe Calidad).",
-    "estado": "Pendiente"
+    "recomendacion": "[CORREGIDO] Umbral nota < 4 incorporado en Manual de Calidad: obliga informe a Gerencia en 48 horas con plan correctivo.",
+    "estado": "Corregido"
   },
   {
     "id": 4,
@@ -46,8 +46,8 @@
     "severidad": "Media",
     "admin_dice": "El 'Informe de Control de Calidad e información de resguardo para posibles Postventa' debe ser suscrito por Director de Obra y Constructor Control de Calidad, con V°B° del Subgerente de Calidad. El documento debe entregarse máximo 1 mes después de la Recepción Municipal.",
     "calidad_dice": "El Control de Calidad o Supervisor de Calidad realiza el Informe Final de Obra al término. Debe ser visado por el Sub Gerente de Calidad. No se establece plazo específico de entrega post-Recepción Municipal.",
-    "recomendacion": "El Manual de Calidad debe incorporar el plazo de 1 mes desde la Recepción Municipal para entregar el Informe Final, alineándose con el Manual de Administración.",
-    "estado": "Pendiente"
+    "recomendacion": "[CORREGIDO] Plazo 1 mes desde Recepcion Municipal incorporado en Manual de Calidad, alineado con Manual de Administracion.",
+    "estado": "Corregido"
   },
   {
     "id": 6,
@@ -56,8 +56,8 @@
     "severidad": "Media",
     "admin_dice": "El sistema de autorización de pago a subcontratistas se efectuará en forma quincenal, entregándose el lunes de la semana de pago a más tardar a las 24 horas. No se cancelarán Estados de Pago que no cumplan estos requisitos.",
     "calidad_dice": "Los estados de pago a contratistas son mencionados en el contexto de validación de partidas por calidad: 'El pago de cada incentivo debe tener VB de Control de Calidad'. No se describe la periodicidad de pagos ni el proceso administrativo de estados de pago desde la perspectiva de calidad.",
-    "recomendacion": "El Manual de Calidad debe incorporar explícitamente que el VB de calidad es un requisito previo al procesamiento de los estados de pago quincenales, articulando el flujo de aprobación de calidad con el calendario de pagos del Manual de Administración.",
-    "estado": "Pendiente"
+    "recomendacion": "[CORREGIDO] Periodicidad quincenal de pagos incorporada en Manual de Calidad con VB de calidad como requisito previo.",
+    "estado": "Corregido"
   },
   {
     "id": 7,
@@ -76,8 +76,8 @@
     "severidad": "Media",
     "admin_dice": "Las únicas personas autorizadas a ingresar a las bodegas son el bodeguero y su ayudante. Nadie más debe ingresar a las bodegas. Cuando se soliciten materiales, las personas deberán permanecer fuera del recinto.",
     "calidad_dice": "En la sección de abastecimiento se indica que el 'Administrativo de Abastecimiento' también tiene acceso y rol activo en la verificación de materiales en bodega ('Verificar los ingresos de materiales a las bodegas realizando en conjunto con el bodeguero el conteo y revisión'). Más adelante la sección de Bodeguero del mismo Manual de Administración indica que solo pueden ingresar 'bodeguero, ayudante de bodega, administrativo de abastecimiento y auditores'.",
-    "recomendacion": "Existe una inconsistencia interna dentro del propio Manual de Administración: en la sección 'Acceso a las Bodegas' dice solo bodeguero y ayudante, pero en la descripción del cargo del bodeguero amplía la lista. Corregir para que ambas secciones sean coherentes y reflejar esta realidad en el Manual de Calidad cuando refiere al control de materiales.",
-    "estado": "Pendiente"
+    "recomendacion": "[CORREGIDO] Lista definitiva de personas autorizadas a ingresar a bodegas: bodeguero, ayudante, digitador, administrador, director, administrativo abastecimiento, auditores, jefes oficina, subgerentes y gerentes.",
+    "estado": "Corregido"
   },
   {
     "id": 9,
@@ -96,8 +96,8 @@
     "severidad": "Media",
     "admin_dice": "Utiliza los términos 'Encargado de Control de Calidad' y 'Constructor Control de Calidad' para referirse al responsable de calidad en obra. También menciona 'Subgerente de Calidad' para el nivel corporativo.",
     "calidad_dice": "Utiliza 'ECO' (Encargado de Calidad de Obra), 'Supervisor de Calidad Zonal', 'Control de Calidad Zonales' y 'Subgerente de Calidad'. Distingue entre ECO (1 por cada 160 familias en DS49) y Supervisores Zonales (3, uno por tipo de proyecto).",
-    "recomendacion": "Crear un glosario unificado de cargos de calidad en ambos manuales. Definir si 'Encargado de Control de Calidad' del Manual de Administración equivale al 'ECO' o al 'Supervisor Zonal' del Manual de Calidad, y si 'Constructor Control de Calidad' es un cargo diferente.",
-    "estado": "Pendiente"
+    "recomendacion": "[NO APLICA] La diferencia de terminologia entre manuales no es considerada relevante para la operacion diaria.",
+    "estado": "No aplica"
   },
   {
     "id": 11,
@@ -106,8 +106,8 @@
     "severidad": "Media",
     "admin_dice": "El control de calidad debe indicar diariamente la cantidad de hormigón que se colocará en las partidas del día siguiente. El Administrativo de Adquisiciones lleva la planilla de control e informa rendimientos semanalmente a Gerentes. El Cardchequer controla la recepción física.",
     "calidad_dice": "El ECO es responsable de programar ensayos de hormigón (mínimo 30% de viviendas) en coordinación con el laboratorio. Debe obtener resultados a los 7 y 28 días. En caso de deficiencia, informar a la Gerencia Técnica de manera inmediata. La planilla de excavaciones es preparada por el ECO.",
-    "recomendacion": "Articular explícitamente ambos flujos: el Manual de Administración describe el control operativo/cuantitativo (m3, guías, OC) y el Manual de Calidad el control técnico (resistencia, ensayos). Definir cómo se integran ambos registros y quién es el interlocutor único ante Gerencia Técnica cuando hay desviaciones en hormigón.",
-    "estado": "Pendiente"
+    "recomendacion": "[NO APLICA] El flujo diferenciado entre Admin (control cuantitativo) y Calidad (ensayos tecnicos) es la forma correcta de operacion.",
+    "estado": "No aplica"
   },
   {
     "id": 12,
@@ -116,8 +116,8 @@
     "severidad": "Media",
     "admin_dice": "El Administrador de Obra debe 'Generar al inicio de la obra una sábana de materiales en el formato establecido. Esta tarea debe ser realizada inmediatamente hecho el presupuesto en control'.",
     "calidad_dice": "La sábana de materiales 'es entregada por el administrador de obra o el encargado de adquisiciones'. Sin embargo, la validación de la sábana es responsabilidad de los Encargados de Calidad, y se valida con las casas piloto. La sábana corregida pasa a ser la base del próximo proyecto.",
-    "recomendacion": "Aclarar que el Administrador genera la sábana inicial, el ECO la valida/corrige con las casas piloto, y la versión corregida queda como registro de calidad. Unificar este flujo en ambos manuales para evitar ambigüedad sobre quién tiene la versión vigente y autorizada.",
-    "estado": "Pendiente"
+    "recomendacion": "[CORREGIDO] Flujo definitivo: Administrador genera sabana inicial; ECO valida con casas piloto; version corregida es la oficial.",
+    "estado": "Corregido"
   },
   {
     "id": 13,
@@ -146,8 +146,8 @@
     "severidad": "Media",
     "admin_dice": "La programación de obra debe ser hecha por el Director de Obra y validada por el equipo, el Gerente Técnico, el Gerente de Administración y el Gerente de Operaciones. Las fichas de Control de Partidas deben estar actualizadas diariamente.",
     "calidad_dice": "El plan de calidad incluye capacitaciones y la sectorización de responsables. Las reuniones de coordinación son convocadas por el Director de Obra. El ECO y supervisor deben participar activamente en 'reuniones de planificación'. No queda claro si el ECO valida formalmente la carta Gantt o solo es receptor de ella.",
-    "recomendacion": "Definir en ambos manuales si el Encargado de Calidad tiene rol formal de validación en la carta Gantt (especialmente en lo que refiere a secuencia constructiva y partidas críticas de calidad) o solo rol consultivo.",
-    "estado": "Pendiente"
+    "recomendacion": "[CORREGIDO] Carta Gantt validada por Gerente de Construccion y Subgerente de Programacion. ECO tiene rol consultivo.",
+    "estado": "Corregido"
   },
   {
     "id": 16,

@@ -89,7 +89,9 @@
       "Donde y cuando almacenar materiales.",
       "Que problemas tengo y que apoyo requiero de la Oficina Central.",
       "Controlar el cumplimiento de las tareas diarias, para lo cual deberá verificar todos los días al final de la jornada, junto con jefe de terreno y jefes de obra. El jefe de obra marca (pinta) el avance realizado durante el día, con esto se compromete a todo el equipo, se detecta inconvenientes que afectaron su trabajo. Además, se evalúa las capacidades y permite intervenir cuando sea menester.",
-      "Estado de la obra en cualquier momento."
+      "Estado de la obra en cualquier momento.",
+      "VALIDACION DE LA CARTA GANTT: La programacion de obra (Carta Gantt) es confeccionada por el Director de Obra y debe ser validada por el Gerente de Construccion y el Subgerente de Programacion. Adicionalmente el Gerente Tecnico y el Gerente de Operaciones visaran la programacion. El ECO participa en calidad consultiva en lo que respecta a la secuencia constructiva y partidas criticas de calidad, pero la validacion formal recae en el Gerente de Construccion y el Subgerente de Programacion.",
+      "VALIDACION FORMAL DE CARTA GANTT: La Carta Gantt elaborada por el Director de Obra debe ser validada por el Gerente de Construccion y el Subgerente de Programacion. Adicionalmente la visaran el Gerente Tecnico y el Gerente de Operaciones. El ECO tiene rol consultivo en secuencia constructiva y partidas criticas de calidad, pero la validacion formal recae en el Gerente de Construccion y el Subgerente de Programacion."
     ]
   },
   {
@@ -239,7 +241,8 @@
     "content": [
       "Deben contar con una programación de obras y conocerla en todas sus implicancias, esta herramienta es vital para poder ejercer una real y correcta administración de la obra.",
       "Los presupuestos y las programaciones (Carta Gantt) guiarán y orientarán las decisiones que a diario deberán adoptar, y ciertamente, serán las consideraciones que definirán las metas y objetivos que deben lograr al término de la obra, tanto en materia económica como de plazos.",
-      "Por lo anterior, ambos administradores deberían ser capaces de explicar en todo momento el porqué está sucediendo o se está realizando algo en la obra, haciendo expresa mención a cuál es el ítem del presupuesto comprometido y cuál es la desviación que presenta dicho ítem."
+      "Por lo anterior, ambos administradores deberían ser capaces de explicar en todo momento el porqué está sucediendo o se está realizando algo en la obra, haciendo expresa mención a cuál es el ítem del presupuesto comprometido y cuál es la desviación que presenta dicho ítem.",
+      "VALIDACION FORMAL DE CARTA GANTT: La Carta Gantt elaborada por el Director de Obra debe ser validada por el Gerente de Construccion y el Subgerente de Programacion. Adicionalmente la visaran el Gerente Tecnico y el Gerente de Operaciones. El ECO tiene rol consultivo en secuencia constructiva y partidas criticas de calidad, pero la validacion formal recae en el Gerente de Construccion y el Subgerente de Programacion."
     ]
   },
   {
@@ -1154,6 +1157,7 @@
     "level": 4,
     "style": "Heading 4",
     "content": [
+      "PERSONAS AUTORIZADAS A INGRESAR A LAS BODEGAS: Las unicas personas autorizadas a ingresar a las bodegas son: bodeguero, ayudante de bodega, digitador, administrador de obra, director de obra, administrativo de abastecimiento, auditores, jefes de oficina, subgerentes y gerentes. Toda persona ajena a esta lista debera permanecer fuera del recinto. Cuando personal no autorizado solicite materiales, debera esperar fuera de la bodega mientras el bodeguero gestiona la entrega.",
       "Las únicas personas autorizadas a ingresar a las bodegas son el bodeguero y su ayudante (si lo hubiere). Nadie más debe ingresar a las bodegas. Cuando se soliciten materiales las personas deberán permanecer fuera del recinto en espera de recibir los materiales por parte del bodeguero.",
       "La llave de acceso a la bodega debe quedar en custodia del bodeguero."
     ]

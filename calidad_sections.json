@@ -240,7 +240,8 @@
       "c. Revisión de acopio de materiales.",
       "Dentro de las tareas permanentes, durante toda la ejecución, del encargado de calidad y/o supervisor de obra es asegurar la revisión de los acopios de materiales. Es debido a esto que es necesario apelar a una buena comunicación con los encargados de bodega, ya que, estos deben ser los funcionarios en obra preocupados de velar por el cuidado de los recursos físicos. Adicionalmente a esto también tendrá que visar la calidad de los materiales que se van acopiando en obra. Además, de asegurar que los materiales en obra son los indicados por especificaciones técnicas del proyecto.",
       "La manera correcta de ejecutar un buen acopio de materiales es seguir lo que indican las fichas técnicas de los materiales.",
-      "En resumen, se debe supervisar el buen almacenaje de los materiales de construcción, una vez al mes e informar mediante la evaluación de obra."
+      "En resumen, se debe supervisar el buen almacenaje de los materiales de construcción, una vez al mes e informar mediante la evaluación de obra.",
+      "RESPONSABLE DE LA SABANA DE MATERIALES (alineado con Manual de Administracion): La sabana de materiales es generada por el Administrador de Obra al inicio del proyecto, inmediatamente despues de tener el presupuesto en control. El ECO valida y corrige la sabana con las casas piloto de cada modelo. La version corregida y validada por el ECO es la version oficial vigente y constituye la base para el proximo proyecto de la misma tipologia. En caso de diferencias en cubicaciones, el Administrador de Obra genera la RDI correspondiente."
     ]
   },
   {
@@ -297,13 +298,16 @@
       "3. Calidad en la ejecución de partidas.",
       "4. Cumplimiento de la secuencia constructiva.",
       "5. Levantamiento de observaciones.",
-      "6. Comentario: relación a temas relevantes y DIA."
+      "6. Comentario: relación a temas relevantes y DIA.",
+      "VALIDACION DE LA CARTA GANTT (alineado con Manual de Administracion): La Carta Gantt elaborada por el Director de Obra debe ser validada formalmente por el Gerente de Construccion y el Subgerente de Programacion. El ECO tiene rol consultivo en la validacion, especialmente en lo que respecta a la secuencia constructiva y partidas criticas de calidad, pero no es validador formal.",
+      "VALIDACION CARTA GANTT (alineado con Manual de Administracion): La Carta Gantt es validada formalmente por el Gerente de Construccion y el Subgerente de Programacion. El ECO tiene rol consultivo en secuencia constructiva y partidas criticas, no de validador formal."
     ]
   },
   {
     "title": "En dicha evaluación es de suma importancia que el ECO y supervisor realice la evaluación de carácter cuantitativo.",
     "level": 3,
     "content": [
+      "ESCALA DE EVALUACION Y REPORTE A GERENCIA (alineado con Manual de Administracion): La evaluacion cuantitativa que se realiza todos los jueves mediante encuesta de Google tiene umbral de alerta en nota menor a 4. Cuando la evaluacion arroja nota inferior a 4, el ECO y/o supervisor debe generar de inmediato un informe dirigido a la Gerencia de Calidad y al Gerente Tecnico, indicando causas y plan de accion correctivo con plazos. Este informe se envia dentro de las 48 horas siguientes a la evaluacion. La mejora debe ser verificable en la evaluacion de la semana siguiente.",
       "Esta evaluación le llega a gerencia de calidad y se presenta en evaluación de obra mensualmente quedando en evidencia cual es el estado y el compromiso de todas cada una de las obras de Independencia con relación al control de calidad de sus viviendas.",
       "i. No conformidades (observaciones).",
       "Una no conformidad por definición es la no satisfacción de un requisito especificado, es decir, una no conformidad se genera debido a una mala ejecución que por transitividad generó un mal resultado en obra, que tiene que ser subsanado de manera inmediata. Es el encargado de calidad y director de obra de obra quien hace las no conformidades.",
@@ -322,7 +326,8 @@
       "Adicionalmente a lo mencionado, el ECO debe hacer la programación de los ensayos del hormigón. Para esto deberá coordinar con el laboratorio contratado a cargo de los ensayos según las condiciones que estos tengan. La cantidad de muestras de hormigón debe ser informada y ratificada por el subgerente de calidad. Se deberán realizar, por lo menos, ensayos del 30% del total de las viviendas que contemple el proyecto. Contemplando ensayos de hormigón, mortero y grouting.",
       "La cantidad y ubicación de los ensayos a tomar deberán estar previamente determinadas e identificadas en un plano de loteo, por elementos, pegada en la sala de reuniones.",
       "RETENCIONES DE SUBCONTRATISTAS (alineado con Manual de Administración): La Constructora efectúa una retención del 6% de cada Estado de Pago como garantía de calidad. La devolución de dicha retención requiere que el ECO certifique el cierre de todas las no conformidades asociadas al trabajo del subcontratista. No conformidades abiertas al momento de la liquidación final son causal de retención total o parcial de la garantía.",
-      "PAGO A SUBCONTRATISTAS (alineado con Manual de Administración): Toda partida ejecutada debe contar con la firma del ECO en la ficha de control de calidad (protocolo) correspondiente como condición previa e indispensable para procesar el Estado de Pago. Ningún Estado de Pago podrá ser cancelado sin este requisito. Los Estados de Pago se procesan de forma quincenal conforme al calendario establecido por la Administración de Obra."
+      "PAGO A SUBCONTRATISTAS (alineado con Manual de Administración): Toda partida ejecutada debe contar con la firma del ECO en la ficha de control de calidad (protocolo) correspondiente como condición previa e indispensable para procesar el Estado de Pago. Ningún Estado de Pago podrá ser cancelado sin este requisito. Los Estados de Pago se procesan de forma quincenal conforme al calendario establecido por la Administración de Obra.",
+      "FRECUENCIA DE ESTADOS DE PAGO A SUBCONTRATISTAS (alineado con Manual de Administracion): Los Estados de Pago se procesan en forma quincenal. El VB del ECO en la ficha de calidad es requisito previo e indispensable para procesar el pago. El Estado de Pago debe ser presentado el lunes de la semana de pago a mas tardar a las 24 horas. No se cancelaran Estados de Pago sin VB de calidad en las partidas correspondientes."
     ]
   },
   {
@@ -340,7 +345,8 @@
       "n. Informe Final de Obra",
       "El Control de Calidad o Supervisor de Calidad, una vez terminada la obra, deberá realizar el Informe Final de Obra, este entregará información relevante a la ejecución de la obra. Se abarca desde las principales modificaciones que se realizaron en el proyecto, las partidas más relevantes del proyecto, el funcionamiento del equipo de trabajo durante la obra y la calificación acumulada de la obra indicada en los informes. Este informe entregará la nota final de la obra respecto a calidad, la cual será utilizada para el cierre de proyecto desde la oficina central. El informe deberá ser visado por el Sub Gerente de Calidad, quien revisará y entregará sus observaciones para modificar, mejorar o corregir. Una vez se actualice se procederá a firmar el informe.",
       "o. Proceso de entrega de las viviendas al propietario.",
-      "El Director de Obra junto con el área Comercial realizará la entrega final al Cliente, de manera de responder consultas técnicas referente a la vivienda."
+      "El Director de Obra junto con el área Comercial realizará la entrega final al Cliente, de manera de responder consultas técnicas referente a la vivienda.",
+      "PLAZO INFORME FINAL DE OBRA (alineado con Manual de Administracion): El Informe Final de Obra debe ser entregado con un plazo maximo de 1 mes contado desde la fecha de Recepcion Municipal. Debe ser suscrito por el Director de Obra y el Constructor Control de Calidad, con Visto Bueno del Subgerente de Calidad antes de su entrega definitiva a la Gerencia."
     ]
   },
   {
